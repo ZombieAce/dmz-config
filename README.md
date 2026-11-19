@@ -4,7 +4,7 @@
 
 Snippets for creating custom forms and form groups, all wish types and more planned in the future!
 
-![Form Snippet Preview](assets/preview1.mp4)
+<video controls src="https://github.com/ZombieAce/dmz-config/raw/refs/heads/master/assets/preview1.mp4" title="Form Snippet Preview"></video>
 
 ## Known Issues
 
