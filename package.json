@@ -1,0 +1,24 @@
+{
+  "name": "dmz-config",
+  "displayName": "DMZ Config",
+  "description": "Extension made for easier editting and creation of Dragon Mine Z configs",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.146.0"
+  },
+  "categories": [
+    "Snippets"
+  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "json",
+        "path": "./snippets/forms.code-snippets"
+      },
+      {
+        "language": "json",
+        "path": "./snippets/wishes.code-snippets"
+      }
+    ]
+  }
+}

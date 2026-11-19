@@ -1,0 +1,160 @@
+{   
+    "items": {
+        "description": "Item Wish Template",
+        "prefix": ".wishItems",
+        "scope": "json",
+        "body": [
+            "{",
+            "\t\"items\": [",
+            "\t  {",
+            "\t\t\"itemType\": \"${1|generic_item,enchanted_item,enchanted_book,potion,splash_potion,lingering_potion,tipped_arrow,trimmed_armor|}\",",
+            "\t\t\"itemId\": \"${2|dragonminez:,minecraft:|}\",",
+            "\t\t\"count\": ${3:1}",
+            "\t  }",
+            "\t],",
+            "\t\"name\": \"${4:I wish for ${5:this!}}\",",
+            "\t\"description\": \"${6:Be given these items}\",",
+            "\t\"type\": \"item_list_wish\"",
+            "}"
+        ]
+    },
+    "attributes": {
+        "description": "Attribute Wish Template",
+        "prefix": ".wishAttributes",
+        "scope": "json",
+        "body": [
+            "{",
+            "\t\"amount\": ${1:100},",
+            "\t\"name\": \"${2:I want to grow stronger!}\",",
+            "\t\"description\": \"${3: Gain ${1} attributes, 50% in AP and 50% in TP}\",",
+            "\t\"type\": \"attributes\"",
+            "}"
+        ]
+    },
+    "ap": {
+        "description": "Attribute Points Wish Template",
+        "prefix": ".wishAP",
+        "scope": "json",
+        "body": [
+            "{",
+            "\t\"amount\": ${1:100},",
+            "\t\"name\": \"${2:I want to grow stronger!}\",",
+            "\t\"description\": \"${3: Gain ${1} AP}\",",
+            "\t\"type\": \"attributepoints\"",
+            "}"
+        ]
+    },
+    "tp": {
+        "description": "TP Wish Template",
+        "prefix": ".wishTP",
+        "scope": "json",
+        "body": [
+            "{",
+            "\t\"amount\": ${1:100},",
+            "\t\"name\": \"${2:I want to grow stronger!}\",",
+            "\t\"description\": \"${3: Gain ${1} TP}\",",
+            "\t\"type\": \"tps\"",
+            "}"
+        ]
+    },
+    "revive": {
+        "description": "Revive Wish Template",
+        "prefix": ".wishRevive",
+        "scope": "json",
+        "body": [
+            "{",
+            "\t\"maxTargets\": ${1:3},",
+            "\t\"name\": \"${2:wish.shenron.revive.name}\",",
+            "\t\"description\": \"${3:wish.shenron.revive.desc}\",",
+            "\t\"type\": \"revive\"",
+            "}"
+        ]
+    },
+    "skill": {
+        "description": "Skill Wish Template",
+        "prefix": ".wishSkill",
+        "scope": "json",
+        "body": [
+            "{",
+            "\t\"skill\": \"${1:kaioken}\",",
+            "\t\"level\": \"${2:1}\",",
+            "\t\"name\": \"${3:Teach me ${4:Kaioken}!}\",",
+            "\t\"description\": \"${5:Learn the $4 Skill (Level $2)}\",",
+            "\t\"type\": \"skill\"",
+            "}"
+        ]
+    },
+    "commands": {
+        "description": "Command Wish Template",
+        "prefix": ".wishCommands",
+        "scope": "json",
+        "body": [
+            "{",
+            "\t\"commands\": [\"${1:time set noon}\"],",
+            "\t\"name\": \"${2:Let there be light!}\",",
+            "\t\"description\": \"${3:Set the time to noon}\",",
+            "\t\"type\": \"command\"",
+            "}"
+        ]
+    },
+    "passiveReset": {
+        "description": "Racial Skill Reset Wish Template",
+        "prefix": ".wishReset",
+        "scope": "json",
+        "body": [
+            "{",
+            "\t\"name\": \"${1:wish.shenron.racialskillreset.name}\",",
+            "\t\"description\": \"${2:wish.shenron.racialskillreset.desc}\",",
+            "\t\"type\": \"passivereset\"",
+            "}"
+        ]
+    },
+    "recustomize": {
+        "description": "Recustomization Wish Template",
+        "prefix": ".wishRecustomize",
+        "scope": "json",
+        "body": [
+            "{",
+            "\t\"name\": \"${1:wish.shenron.customization.name}\",",
+            "\t\"description\": \"${2:wish.shenron.customization.desc}\",",
+            "\t\"type\": \"recustomize\"",
+            "}"
+        ]
+    },
+    "difficulty": {
+        "description": "Difficulty Change Wish Template",
+        "prefix": ".wishDifficulty",
+        "scope": "json",
+        "body": [
+            "{",
+            "\t\"name\": \"${1:wish.shenron.changedifficulty.name}\",",
+            "\t\"description\": \"${2:wish.shenron.changedifficulty.desc}\",",
+            "\t\"type\": \"changedifficulty\"",
+            "}"
+        ]
+    },
+    "resetStory": {
+        "description": "Story Reset Wish Template",
+        "prefix": ".wishStoryReset",
+        "scope": "json",
+        "body": [
+            "{",
+            "\t\"name\": \"${1:wish.shenron.resetstory.name}\",",
+            "\t\"description\": \"${2:wish.shenron.resetstory.desc}\",",
+            "\t\"type\": \"resetstory\"",
+            "}"
+        ]
+    },
+    "relocate": {
+        "description": "Relocate Stats Wish Template",
+        "prefix": ".wishRelocate",
+        "scope": "json",
+        "body": [
+            "{",
+            "\t\"name\": \"${1:wish.shenron.relocatestats.name}\",",
+            "\t\"description\": \"${2:wish.shenron.relocatestats.desc}\",",
+            "\t\"type\": \"relocatestats\"",
+            "}"
+        ]
+    }
+}
