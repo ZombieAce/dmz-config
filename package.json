@@ -6,6 +6,7 @@
   "repository": {
     "url": "https://github.com/ZombieAce/dmz-config/"
   },
+  "publisher": "187907905",
   "engines": {
     "vscode": "^1.146.0"
   },
